@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>curso.api</name>
+    </assembly>
+    <members>
+        <member name="M:curso.api.Controllers.UsersController.Login(curso.api.Models.Users.LoginViewModelInput)">
+            <summary>
+            Autenticação de usuário
+            </summary>
+            <param name="login">Recebe os dados de login</param>
+            <returns>Usuário autenticado</returns>
+        </member>
+        <member name="M:curso.api.Controllers.UsersController.Add(curso.api.Models.Users.AddViewModelInput)">
+            <summary>
+            Registro de novo usuário
+            </summary>
+            <param name="user">Usuário a ser cadastrado</param>
+            <returns>Usuário</returns>
+        </member>
+    </members>
+</doc>
